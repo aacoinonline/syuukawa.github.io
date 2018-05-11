@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: aacoinonline@163.com
 description: Main
 keyword: AACOIN
-url: http://aacoinonline.github.io         # your host, for absolute URL
+url: "http://aacoinonline.github.io"         # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: https://github.com/aacoinonline/aacoinonline.github.io.git # you code repository
 
