@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      AAT 有什么用？
+title:      Aacoin
 subtitle:   AAT 有什么用？
 date:       2018-05-12
 author:     九天
