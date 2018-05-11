@@ -21,13 +21,13 @@ header-img: "img/post-about.jpg"
 
     <p></p>
     
-    <h5>介绍</h5>
+    <h5> 介绍 </h5>
 
     <ul>
-     <li> AAcoin是一个加密货币的交易平台，立足于技术研发，安全保障，以成为全球顶级人工智能数字资产交易平台所为目标 ，以发现优质的数字资产投资机会，向全球区块链爱好者提供安全更加安全、便捷的区块链资产交易服务为己任；</li>
-     <li> 网站成立于2017年，网址：www.aacoin.com，平台隶属于英国，</li>
-     <li> 由前腾讯、平安组成的明星团队，兼具传统金融和加密货币的技术和运营，为交易所的功能实现提供有力的支撑，为全球化运营提供保障。目前平台已上线，飞速发展中。</li>
-     <li> 平台拥有强大的合作伙伴，世界级的投资者-矿世云，共识资本，日本的数字加密者协会等站台，此外还有蒙古国的交易资质证书。</li>
+      <li> AAcoin是一个加密货币的交易平台，立足于技术研发，安全保障，以成为全球顶级人工智能数字资产交易平台所为目标 ，以发现优质的数字资产投资机会，向全球区块链爱好者提供安全更加安全、便捷的区块链资产交易服务为己任；</li>
+      <li> 网站成立于2017年，网址：www.aacoin.com，平台隶属于英国，</li>
+      <li> 由前腾讯、平安组成的明星团队，兼具传统金融和加密货币的技术和运营，为交易所的功能实现提供有力的支撑，为全球化运营提供保障。目前平台已上线，飞速发展中。</li>
+      <li> 平台拥有强大的合作伙伴，世界级的投资者-矿世云，共识资本，日本的数字加密者协会等站台，此外还有蒙古国的交易资质证书。</li>
     </ul>
 </div>
 
@@ -93,67 +93,3 @@ header-img: "img/post-about.jpg"
     // init
     _render();
 </script>
-
-
-
-{% if site.duoshuo_username %}
-<!-- 多说评论框 start -->
-<div class="comment">
-    <!-- This id is used for indexing my loss comments forcedly -->
-    <div class="ds-thread"
-    {% if site.duoshuo_username == "" %}
-        data-thread-id="0ee040117ec56f17aa7e2523d1eae19b"
-    {% else %}
-    <!-- U can just use this key generated to index comments at page about -->
-        data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
-
-    data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
-</div>
-<!-- 多说评论框 end -->
-
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User hacking by Hux
-    var _user = '{{site.duoshuo_username}}';
-
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
-
-
-{% if site.disqus_username %}
-<!-- disqus 评论框 start -->
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
