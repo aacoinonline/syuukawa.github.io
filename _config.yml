@@ -3,6 +3,9 @@ title: Aacoin
 SEOTitle: AACOIN-OnLine
 header-img: img/post-bg-desk.jpg
 email: aacoinonline@163.com
+QQ:
+Telegram:
+
 description: Main
 keyword: AACOIN
 url: http://aacoinonline.github.io         # your host, for absolute URL
@@ -11,7 +14,7 @@ github_repo: https://github.com/aacoinonline/aacoinonline.github.io.git # you co
 
 # Sidebar settings 设置侧边栏
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: Aacoin 群列表
+sidebar-about-description: Aacoin 信息
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
