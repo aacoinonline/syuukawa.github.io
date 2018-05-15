@@ -4,7 +4,7 @@ title:      AAcoin Weekly
 subtitle:   AAcoin Global Digital Asset Trading platform Weekly [05/06-05/12]
 date:       2018-05-06
 author:     BY Aacoin
-header-img: img/tag-bg.jpg
+header-img: img/post-about.jpg
 catalog: true
 tags:
     - Weekly
